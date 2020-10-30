@@ -7,13 +7,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{{url_for('main.index')}}"><strong>All Pitches</strong></a>
+          <a class="nav-link" href="{{url_for('main.index')}}"><strong>All Blogs</strong></a>
         </li>
         <br>
         <br>
         {% if current_user.is_authenticated %}
         <li class="nav-item">
-          <a class="nav-link" href="{{url_for('main.new_pitch')}}"><strong>New Pitch</strong></a>
+          <a class="nav-link" href="{{url_for('main.new_blog')}}"><strong>New Blog</strong></a>
         </li>
         {% endif %}
       </ul>
