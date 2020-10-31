@@ -1,0 +1,6 @@
+Hello {{user.username}}!
+
+A new blog was posted on Sole~Blog
+
+Title: {{blog.title}}
+Post: {{blog.content|truncate(30)}}
